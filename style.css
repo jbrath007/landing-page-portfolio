@@ -13,6 +13,7 @@ body
   font-family: "Faculty Glyphic", sans-serif;
   font-weight: 1000;
   font-style: normal;
+  background-color: #d6cfbc;
 }
 
 html
@@ -54,7 +55,7 @@ nav
 
 a 
 {
-    color: coral;
+    color: #708090;
     text-decoration: none;
     text-decoration-color: white;
 }
@@ -70,8 +71,9 @@ a:hover
 
 .logo
 {
-    font-size: 2rem;
-    color: burlywood;
+    font-size: 3rem;
+    color: #171717;
+    font-weight: bold;
 }
 
 .logo:hover
@@ -127,14 +129,14 @@ a:hover
     padding: 10px;
     text-align: center;
     font-size: 1.5rem;
-    color: coral;
+    color: #708090;
     text-decoration: none;
     transition: all 0.3 ease-in-out; 
 }
 
 .menu-links a:hover
 {
-    color: cadetblue;
+    color: #708090;
     text-decoration: underline;
     text-underline-offset: .5rem;
     text-decoration-color: rgb(200,200,200);
@@ -286,7 +288,7 @@ section
 .btn-color-2:hover
 {
     background: rgb(53, 53, 53);
-    color: aquamarine;
+    color: gray;
 }
 
 .btn-color-1:hover
